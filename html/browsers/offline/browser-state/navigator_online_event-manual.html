@@ -8,7 +8,7 @@
 	<p>
 		<h3>navigator_online_event</h3>
 	</p>
-	
+
 	<ol type="1">
 	<li>Change the 'work offline' mode.</li>
 	<li>If actual result and expected result are same, then test is <span class="manualpass">Pass</span>, otherwise <span class="manualfail">Fail</span>.</li>
@@ -22,13 +22,13 @@
 			<span id="actualMsg"></span>
 		</div>
 	</p>
-  
+
 	<p>
 		<h3>[Expected Result]</h3>
 		<div id="expectedResult" >
 			<span id="expectedMsg">apply 'work offline': offline event is raised.<p>release 'work offline': online event is raised.</span>
 		</div>
-	</p> 
+	</p>
 	<script>
 
 	function showOnline() {
@@ -46,7 +46,7 @@
 		window.attachEvent("ononline", showOnline);
 		window.attachEvent("onoffline", showOffline);
 	} else {
-		
+
 	}
 
 	</script>
